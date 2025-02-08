@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import KeyboardArrowUpIcon from "@mui/icons-material/KeyboardArrowUp";
+import "./ScrollTop.css";
 
 export default function ScrollTop() {
   const [isVisible, setIsVisible] = useState(false);
