@@ -1,0 +1,28 @@
+.logo-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo-small {
+  width: 40px;
+  height: auto;
+}
+
+.logo-text {
+  width: 120px;
+  height: auto;
+  object-fit: contain;
+}
+
+@media (max-width: 768px) {
+  .logo-text {
+    width: 100px;
+  }
+}
+
+@media (max-width: 480px) {
+  .logo-text {
+    display: none;
+  }
+}

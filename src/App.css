@@ -1,0 +1,44 @@
+@media (min-width: 767px) and (max-width: 1028px) {
+  .searchbox-container {
+    width: 300px;
+  }
+  /* Adjust SigninSection content */
+  .signin-section {
+    max-width: 400px !important; /* reduce overall width */
+    margin: 0 auto; /* center the section */
+    padding: 20px !important;
+  }
+  .signin-section h4 {
+    font-size: 1.3rem !important;
+  }
+  .signin-section .btn {
+    font-size: 0.9rem !important;
+    padding: 8px 10px !important;
+  }
+  /* Optionally adjust the size of the button images */
+  .signin-section img {
+    height: 20px !important;
+    width: 20px !important;
+  }
+
+  /* Adjust HobbySection: center text and reduce image size */
+  .hobby-section {
+    text-align: center !important;
+  }
+  .hobby-section img {
+    max-width: 90% !important; /* reduce image width */
+    height: auto !important;
+  }
+}
+@media (max-width: 391px) {
+  /* Prevent the navbar container from wrapping its children */
+  .navbar .container-fluid {
+    flex-wrap: nowrap;
+  }
+}
+
+@media (max-width: 450px) {
+  .searchbox-container {
+    width: 200px !important;
+  }
+}
